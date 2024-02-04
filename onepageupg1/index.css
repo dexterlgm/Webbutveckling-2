@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    background-image:url(img/winter.jpg);
+    background-size: 211vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    display: block;
+    background-color: #515151;
+    position: fixed;
+    width: 100%;
+}
+
+#logo {
+    width: 35.73px;
+    height: 35.73px;
+    background-color:#00ced1;
+    border-radius: 26px;
+    border: solid;
+    border-color: #00ced1;
+    border-width: 5px;
+}
+
+#companytext {
+    color: #eee;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+#company {
+    display: flex;
+    width: 50%;
+    padding: 10px;
+    float: left;
+}
+
+nav {
+    padding-top: 12px;
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+a {
+    color: #eee;
+    float: right;
+    text-decoration: none;
+    padding: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: #00ced1;
+    text-underline-offset: 28px;
+}
+
+#webD {
+    margin: 0;
+    padding-top: 130px;
+    color: #eee;
+    font-size: 40px;
+    text-align: center;
+}
+
+#devspan, #loremspan {
+    color: #00ced1;
+}
+
+#underD {
+    padding-top: 30px;
+    color: #eee;
+    font-size: 34px;
+    text-align: center;
+}
+
+i {
+    color:#00ced1;
+}
+
+.wrapper {
+    margin: 0;
+    padding-top: 500px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "box";
+}
+
+#aboutlorem {
+    background-color: #eee;
+    text-align: center;
+    font-size: 44px;
+    color: black;
+}
+
+#aboutbox {
+    grid-area: box;
+    background-color: #eee;
+}
+
+#loremipsum {
+    margin: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+@media (max-width: 670px) {
+    a:hover {
+        text-underline-offset: 28px;
+    }
+
+    header {
+        height: 70px;
+    }
+
+    nav {
+        margin-right: -10px;
+    }
+
+    a {
+        padding: 0;
+        padding-top: 14px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 506px) {
+    #company {
+        width: 184px;
+    }
+
+    nav {
+        margin-right: -10px;
+    }
+}
+
+@media (max-width: 437px) {
+    header{
+        display: flex;
+        height: auto;
+    }
+
+    a:hover {
+        text-underline-offset: 4px;
+    }
+}

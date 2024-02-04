@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(26, 19, 75);
+}
+
+h1 {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 30vh;
+}
+
+section {
+    font-size: 30px;
+}

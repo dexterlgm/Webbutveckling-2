@@ -1,0 +1,146 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+}
+
+#headbigtext {
+    font-size: 36px;
+    color: #FC3;
+    padding-top: 40px;
+}
+
+#headsmalltext {
+    font-size: 28px;
+    color: #EEE;
+    margin-top: -10px;
+}
+
+header {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #333;
+    text-align: center;
+    height: 170px;
+    margin: -8px;
+    margin-top: -26px;
+}
+
+nav {
+    margin: -8px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #555;
+    display: block;
+  }
+  
+.navtext {
+    color: #FC3;
+    height: 0px;
+    padding-bottom: 16px;
+    font-size: 16px;
+}
+
+.navbar {
+    display: block;
+    background-color: #444;
+    text-align: center;
+    text-decoration: none;
+    border: solid;
+    border-width: 1px;
+    border-color: #555;
+    float: left;
+    width: 150px;
+}
+  
+#flexcontainer {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+main {
+    margin-top: 8px;
+    background-color: #EEE;
+    height:auto;
+    padding-left: 10px;
+    flex:60%;
+}
+
+#maintop {
+    display: inline-block;  
+    font-size: 14px;
+}
+
+#maintext {
+    padding-left:10px;
+}
+
+#categoria {
+    display:inline-flex;
+}
+
+.category {
+    display: inline-block;
+    border:solid;
+    border-color:#FC3;
+    height: 16px;
+    margin-right: 10px;
+    border-radius: 4px;
+    font-size:14px;
+}
+
+#categories {
+    display: inline-block;
+    margin-left: 4px;
+}
+
+#mainpara {
+    width: 60%;
+
+}
+
+.firstletter {
+    font-size: 24px;
+}
+
+#side {
+    flex: 34%;
+}
+
+#sidetext {
+    padding-left: 14px;
+    padding-top: 26px;
+}
+
+ol {
+    border:solid;
+    background-color: rgb(191, 190, 190);
+    width: 204px;
+    height: auto;
+    color:#eee;
+    border-width: 1px;
+    border-color:rgb(212, 210, 210);
+    filter: drop-shadow(6px 6px 2px rgb(163, 160, 160));
+}
+
+.list13 {
+    padding: 12px;
+    width: 180px;
+    background-color: #EEE;
+    color: black;
+}
+
+.list24 {
+    padding: 12px;
+    width: 180px;
+    background-color:rgb(212, 210, 210);
+    color: black;
+}
+
+footer {
+    background-color: #333;
+    width: 100%;
+    height: 140px;
+}
+

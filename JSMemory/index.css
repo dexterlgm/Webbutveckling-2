@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    background-color:rgb(66, 66, 66);
+}
+
+header{
+    background-color: rgb(45, 45, 45);
+    height: 90px;
+    color: #EEE;
+    margin-top: -20px;
+    padding-top: 30px;
+    display: block;
+    font-size: 12px;
+}
+
+header > h1{
+    float: left;
+    font-size: 36px;
+    color: rgb(255, 234, 0);
+    margin-top: 14px;
+    padding-left: 6px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section{
+    float: right;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+    margin-right: 6px; 
+}
+
+section > div{
+    font-size: 12px;
+    padding: 4px;
+    background-color:rgb(66, 66, 66);
+    text-align: center;
+    border-radius: 6px;
+    margin-top: -10px;
+}
+
+.gameComplete{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+    padding-left: 3px;
+    width: 16%;
+    height: 28%;
+    background-color: rgb(155, 155, 155);
+    filter: drop-shadow(2px 2px 6px rgb(0, 0, 0));
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 6px;
+}
+
+.gameFalse{
+    display: none;
+}
+
+.turned{
+    color:  black;
+    text-indent: 0px;
+    white-space: nowrap;
+    background-color: #f7f3ef;
+    line-height: 140px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.solved{
+    color: rgb(17, 189, 17);
+    text-indent: 0px;
+    white-space: nowrap;
+    background-color: #f7f3ef;
+    line-height: 140px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.board > div{
+    height: 140px;
+    width: 140px;
+    background-color: gray;
+    color: gray;
+    display: inline-block;
+    font-size: 56px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    filter: drop-shadow(4px 4px 2px rgb(0, 0, 0));
+    text-indent: -9999px;
+    white-space: nowrap;
+}

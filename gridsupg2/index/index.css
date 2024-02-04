@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    display: grid; 
+    grid-template-columns: 1fr 1.5fr 0.5fr 1fr;
+    height: 100vh;
+    grid-gap: 2px;
+    grid-template-areas:
+        "heat heat sus sus"
+        "inside riffi riffi bankjob";
+}
+
+.grid1 {
+    background-size: cover;
+    background-image: url(heistmovies/heat1.jpg);
+    grid-area: heat;
+}
+
+.grid2 {
+    background-size: cover;
+    background-image: url(heistmovies/usualsuspects.jpg);
+    grid-area: sus;
+}
+
+.grid3 {
+    background-size: cover;
+    background-image: url(heistmovies/insideman.jpg);
+    grid-area: inside;
+}
+
+.grid4 {
+    background-size: cover;
+    background-image: url(heistmovies/rififi.jpg);
+    grid-area: riffi;
+}
+
+.grid5 {
+    background-size: cover;
+    background-image: url(heistmovies/bankjob.jpg);
+    grid-area: bankjob;
+}
+
+h1 {
+    color: white;
+    font-size: 36px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

@@ -1,0 +1,2 @@
+Uppgiftsbeskrivning:
+Skapa en webbsida för ett recept (välj själv recept). Bygg upp layouten med Grid. Sidan skall visas med en kolumn för mindre enheter/skärmar och med två eller fler för större skärmar. Din sida behöver absolut inte se ut exakt som min, men grundprincipen skall vara den samma: ett recept inkluderande ingredienser och instruktioner, bild på rätten samt minst två versioner av layouten anpassade för olika visningsstorlekar. Innan du gör denna uppgift bör du ha gått igenom de båda PDF:er om Grid som ligger före denna uppgift på Classroom.

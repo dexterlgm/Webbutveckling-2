@@ -1,0 +1,43 @@
+body {
+    margin:0;
+}
+
+#wrapper {
+    display:grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas: 
+        "side header"
+        "side main"
+        "side main"
+        "side footer";
+}
+
+header {
+    background-color: lightgray;
+    grid-area: header;
+    height: 20vh;
+}
+
+#sidebar {
+    background-color: darkslategray;
+    grid-area: side;
+    height:100vh;
+}
+
+a {
+    padding: 10px;
+    color:white;
+}
+
+#main {
+    background-color: darkred;
+    color:white;
+    grid-area: main;
+    height: 60vh;
+}
+
+footer {
+    background-color: gray;
+    grid-area: footer;
+    height: 20vh;
+}

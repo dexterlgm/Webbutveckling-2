@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Hangman</title>
+</head>
+<body>
+    <p>Gissa en bokstav!</p>
+    <input id="userInp" type="text" maxlength="1">
+    <button id="submit" type="button">Submit</button><br><br>
+    <button id="reset" type="button">Nytt spel</button>
+
+    <div id="uiWord"></div><br><br><br>
+
+    <br><h3 id="failedChar">Felaktiga bokstäver: </h3>
+
+    <br><h2 id="lifeCount">Antal liv: 11</h2>
+
+    <br><h3 id="uiFeedback"></h3>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

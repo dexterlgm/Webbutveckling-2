@@ -1,0 +1,43 @@
+.wrapper {
+    display: grid;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas:
+    "hd"
+    "main"
+    "sb"
+    "ft";
+}
+
+@media (min-width: 500px) {
+    .wrapper {
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas:
+    "hd hd"
+    "sb main"
+    "sb ft";
+    }
+}
+
+.wrapper > div {
+    border:solid;
+    border-color: red;
+    padding: 4px;
+    border-radius: 4px;
+    margin: 2px;
+}
+
+.header {
+    grid-area: hd;
+}
+    
+.footer {
+    grid-area: ft;
+}
+    
+.content {
+    grid-area: main;
+}
+    
+.sidebar {
+    grid-area: sb;
+}

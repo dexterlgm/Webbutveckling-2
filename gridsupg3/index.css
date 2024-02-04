@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+/* AAAAAAAAAAAAAAAAAAAAAAAAAAA */
+#a {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: lightgray;
+}
+/* BBBBBBBBBBBBBBBBBBBBBBBBBBB */
+#b {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    ". Btext";
+}
+#b > div {
+    grid-area: Btext;
+}
+/* CCCCCCCCCCCCCCCCCCCCCCCCCCC */
+#c {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#c > div {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    background-color: lightpink;
+}
+/* DDDDDDDDDDDDDDDDDDDDDDDDDDDDD */
+#d {
+    display: flex;
+    justify-content: center;
+}
+
+#d > div {
+    height: 50px;
+    width: 200px;
+    margin: 5px;
+    background-color: lightblue;
+}
+/* ------------------------------ */
